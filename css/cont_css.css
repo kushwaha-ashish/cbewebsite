@@ -1,0 +1,53 @@
+body::after	{
+	content:"";
+	background-image:url(../images/con-bkgnd.JPG);
+	background-position:center;
+	background-attachment:fixed;
+	background-size:cover;
+	opacity:0.2;
+	top:0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position:fixed;
+	z-index: -1;
+}
+
+
+#label-side	{
+	height: 45vh;
+	margin-top: 10px;
+	width: 48%;
+	padding-left:50px;
+	border: 1px dashed black;
+	float:left;
+}
+
+#form-side	{
+	padding-top: 20px;
+	height: 45vh;
+	margin-top: 10px;
+	width: 48%;
+	padding-left:50px;
+	border: 1px dashed black;
+	float:right;
+}
+
+td 	{
+	height: 40px;
+	vertical-align: top;
+}
+
+.col1	{
+	width: 80px;
+}
+
+.col2	{
+	width: 350px;
+}
+
+button	{
+	float: right;
+	margin-right: 50px;
+	width: 100px;
+}

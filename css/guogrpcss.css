@@ -1,0 +1,184 @@
+a 	{
+	color: #1c1c96;
+}
+
+
+body	{
+	//background-color: #A9BCF5;
+	font-family: 'Raleway', sans-serif;
+}
+
+#thinline	{
+	height: 50px;
+	background: linear-gradient(#002b5c, #002b5b);
+}
+
+#und a	{
+	float: left;
+	padding-left: 100px;
+	margin-top: 7px;
+	color: white;
+	font-size: 23px;
+}
+
+#cbe a	{
+	float: right;
+	padding-right: 100px;
+	margin-top: 7px;
+	color: white;
+	font-size: 23px;
+}
+
+#thinline a:hover{
+	text-decoration: none;
+	font-weight: bold;
+	//color: #A9BCF5;
+	//color: #489CDF;
+}
+
+#header	{
+	height: 100px;
+	width: 100%;
+	background: #F5D44D;
+	//background: #b18d03;
+	//background: linear-gradient(#F3E2A9,#b18d03);
+}
+
+#logo	{
+	width: 20%;
+	margin-top: -10px;
+	padding-left: 70px;
+	color: #002b5c;
+	text-weight: bold;
+	text-shadow: 0 1px white;
+	float: left;
+}
+
+#logo h1	{
+	font-weight: bold;
+}
+
+#navi-cont	{
+	width: 80%;
+	float: right;
+	background-color: auto;
+}
+
+.menu	{
+	float: center;
+	display: inline-block;
+	padding: 30px;
+}
+
+.menu	a	{
+	color: red;
+}
+
+.menu a:hover	{
+	text-decoration: none;
+	color: white;
+}
+
+#active	{
+	color: white;
+}
+
+.big	{
+	font-size: 1.4em;
+	color: #002b5c;
+	text-shadow: 0 1px white;
+}
+
+#fspace	{
+	height: 170px;
+}
+
+#space	{
+	height: 70px;
+	clear: both;
+}
+
+#wrap	{
+	padding-top: 170px;
+	width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 120px;
+}
+
+.ribbon	{
+	height: 70px;
+	background-color: #08298A;
+	align: center;
+	color: white;
+	border: 5px solid white;
+	border-radius: 10px;
+	clear: both;
+}
+
+#grppic	{
+	background-image: url(../images/group-photo.jpg);
+	height: 100vh;
+	width: 100 vw;
+	border: 1px solid black;
+	background-attachment: fixed; 
+	background-size: cover;
+}
+
+.nopic	{
+	height: 200px;
+	width: 200px;
+	border-radius: 10px;
+	border: 5px solid #F5A9BC;
+}
+
+.sidebyside	{
+	float: left;
+	width: 250px;
+	display: inline;
+}
+
+.peepdesc	{
+	float: right;
+	width: 800px;
+	display: inline;
+}
+
+.ribbon h3	{
+	text-align: center;
+}
+
+#tofix	{
+	width: 100%;
+	min-width: 1200px;
+	position: fixed;
+	z-index: 1;
+}
+
+#space	{
+	height: 20px;
+	border-bottom: 1px dashed black;
+}
+
+#space1	{
+	height: 20px;
+	clear: both;
+}
+
+#schedule-container	{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#footer	{
+	//position: absolute;
+	position: fixed;
+	height: 50px;
+	width: 100%;
+	bottom: 0;
+	background-color: #515151;
+	opacity: 0.7;
+	color: white;
+	text-align: center;
+}
