@@ -11,12 +11,20 @@ body::after	{
 	right: 0;
 	position:fixed;
 	z-index: -1;
-	}
+}
 
-	.nopic	{
+.person-pic	{
 	height: 200px;
 	width: 200px;
 	border-radius: 10px;
 	//border: 5px solid #F5A9BC;
 	border: 5px solid #515151;
-	}
+}
+
+.lower-ribbon {
+	clear: both;
+	border-bottom: 1px dashed black;
+	padding-bottom: 30px;
+	margin-bottom: 25px;
+}
+

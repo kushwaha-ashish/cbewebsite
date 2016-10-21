@@ -89,14 +89,9 @@ body	{
 	text-shadow: 0 1px white;
 }
 
-#fspace	{
+/*#fspace	{
 	height: 170px;
-}
-
-#space	{
-	height: 70px;
-	clear: both;
-}
+}*/
 
 #wrap	{
 	padding-top: 170px;
@@ -113,7 +108,6 @@ body	{
 	color: white;
 	border: 5px solid white;
 	border-radius: 10px;
-	clear: both;
 }
 
 #grppic	{
@@ -127,14 +121,11 @@ body	{
 
 .sidebyside	{
 	float: left;
-	width: 250px;
-	display: inline;
 }
 
 .peepdesc	{
 	float: right;
 	width: 800px;
-	display: inline;
 }
 
 .ribbon h3	{
@@ -146,22 +137,6 @@ body	{
 	min-width: 1200px;
 	position: fixed;
 	z-index: 1;
-}
-
-#space	{
-	height: 20px;
-	border-bottom: 1px dashed black;
-}
-
-#space1	{
-	height: 20px;
-	clear: both;
-}
-
-#schedule-container	{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 #footer	{
