@@ -1,24 +1,22 @@
-a 	{
-	color: #1c1c96;
-}
-
-
 body	{
 	//background-color: #A9BCF5;
 	font-family: 'Raleway', sans-serif;
 }
 
+a	{
+	color: #1c1c96;
+}
+
 #thinline	{
 	height: 50px;
-	background: linear-gradient(#002b5c, #002b5b);
+	//background: linear-gradient(#002b5c, #002b5b);
+	background-color: #002b5c;
 }
 
 #und a	{
 	float: left;
 	padding-left: 100px;
-	margin-top: 7px;
 	color: white;
-	font-size: 23px;
 }
 
 #cbe a	{
@@ -29,7 +27,7 @@ body	{
 	font-size: 23px;
 }
 
-#thinline a:hover{
+#thinline a:hover	{
 	text-decoration: none;
 	font-weight: bold;
 	//color: #A9BCF5;
