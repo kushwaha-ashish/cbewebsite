@@ -24,7 +24,7 @@ body::after	{
 }
 
 #form-side	{
-	padding-top: 20px;
+	padding-top: 10px;
 	height: 45vh;
 	margin-top: 10px;
 	width: 48%;
@@ -50,4 +50,9 @@ button	{
 	float: right;
 	margin-right: 50px;
 	width: 100px;
+}
+
+h3 	{
+	margin-top: 10px;
+	margin-bottom: 0;
 }
